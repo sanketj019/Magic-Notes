@@ -1,0 +1,17 @@
+!!! Steps for adding your project to gthub:
+
+<------1st add(create) new repository for your project------->
+
+1) touch .gitignore // generate file(in same project folder) which should be added    folder you dont want to upload to git.  
+
+2) git config --global user.name <your name>
+3) git config --global user.email <your email>
+4) git init
+5) git commit -m "initial commit" // adding comments
+6) git status //just to see
+7) ssh-keygen -t ed25519 -c "sanketj019@gmail.com" //for generating ssh key of your    computer
+8) tail <path to id_rsa.pub> add this key to your github account for authentecation
+9) git remote add origin <ssh url.git> //your github repository's ssh url.
+10) git push origin master
+
+Now your project should visible on corresponding repository.
