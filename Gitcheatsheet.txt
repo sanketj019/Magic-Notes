@@ -9,9 +9,18 @@
 4) git init
 5) git commit -m "initial commit" // adding comments
 6) git status //just to see
-7) ssh-keygen -t ed25519 -c "sanketj019@gmail.com" //for generating ssh key of your    computer
+7) ssh-keygen -t ed25519 -c "sanketj019@gmail.com" //for generating ssh key of your computer
 8) tail <path to id_rsa.pub> add this key to your github account for authentecation
 9) git remote add origin <ssh url.git> //your github repository's ssh url.
 10) git push origin master
 
 Now your project should visible on corresponding repository.
+
+[Note. steps 7 and 8 are only for authentication of your computer with your github profile, not neccessary each time.]
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+for updating files use below commands:
+
+1) git add .
+2) git commit -m "any comment you want to add"
+3) git push origin master
